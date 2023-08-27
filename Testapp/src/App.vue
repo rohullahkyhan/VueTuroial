@@ -1,48 +1,58 @@
 <script setup>
 
-import TheWelcome from './components/TheWelcome.vue'
-import Home from './components/Home.vue'
-import Products from './components/Products.vue'
-import Counter from './components/Counter.vue'
-import Reactive from './components/Reactive.vue'
+// import TheWelcome from './components/TheWelcome.vue'
+// import Home from './components/Home.vue'
+// import Products from './components/Products.vue'
+// import Counter from './components/Counter.vue'
+// import Reactive from './components/Reactive.vue'
+// import Footer from './components/Footer.vue'
+// import  Items from './components/Items.vue'
+
+
+import HomeBind from './components/HomeBind.vue';
+import DataBind from './components/DataBind.vue';
 
 </script>
 
+
 <template>
- 
-  <main>
-      <Home  title="Done by Rohullah Kyhan " msg="Hello, world today I have my first job   interview they encourge me to start vue js "/>
-      <br>
-    
-      <Reactive  title="Reactive Component" />
-  </main>
+  
+
+  <center>
+       <main>
+            <HomeBind message="{message}" />
+            <DataBind  />
+       </main>
+      
+  </center>
+
+
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+<style type="text/css">
+  
+  *{
+      padding: 0px;
+      margin:0px;
+      font-family: tahoma;
+  }
+  body{
+      background: black;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
+  main {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
+
+
+
+
+
+
