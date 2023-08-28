@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "Rohullah",
+        "lastname": "Kyhan",
+        "age": 23
+    },
+    {
+        "id": 2,
+        "name": "Mosa",
+        "lastname": "Ahmadi",
+        "age": 23
+    },
+
+    {
+        "id": 3,
+        "name": "Rohullah",
+        "lastname": "Kyhan",
+        "age": 23
+    },
+    {
+        "id": 4,
+        "name": "Mosa",
+        "lastname": "Ahmadi",
+        "age": 23
+    },
+
+
+    {
+        "id": 5,
+        "name": "Rohullah",
+        "lastname": "Kyhan",
+        "age": 23
+    },
+    {
+        "id": 6,
+        "name": "Mosa",
+        "lastname": "Ahmadi",
+        "age": 23
+    }
+]
