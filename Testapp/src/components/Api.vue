@@ -8,7 +8,7 @@
                     POST ID
                 </th>
                 <th>
-                    POST TITLE
+                Post Title 
                 </th>
                 <th>
                     POST BODY
